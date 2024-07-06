@@ -1,5 +1,5 @@
 {
-  "name": "feathers-authentication-management",
+  "name": "@krimzen-ninja/feathers-authentication-management",
   "description": "Adds sign up verification, forgotten password reset, and other capabilities to local feathers-authentication",
   "version": "5.0.1",
   "repository": {
