@@ -42,7 +42,7 @@
     "dist/**"
   ],
   "scripts": {
-    "preversion": "npm run lint  && npm run compile",
+    "preversion": "npm run lint && npm run compile",
     "publish": "git push origin --tags && npm run changelog && git push origin",
     "release:pre": "npm version prerelease --preid=pre && npm publish --tag pre",
     "release:patch": "npm version patch && npm publish",
@@ -66,6 +66,7 @@
     "@feathersjs/authentication-client": "^5.0.11",
     "@feathersjs/authentication-local": "^5.0.11",
     "@feathersjs/errors": "^5.0.11",
+    "@krimzen-ninja/feathers-hooks-common": "^8.2.1",
     "bcryptjs": "^2.4.3",
     "debug": "^4.3.4",
     "feathers-hooks-common": "^8.2.0",
